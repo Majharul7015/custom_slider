@@ -1,0 +1,43 @@
+	.slider
+	{
+		background-image: url(../images/slide.jpg);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.custom_slider{
+
+    padding: 40px 60px;
+    background-color: rgba(122,122,22,.7);
+    color: white;
+	}
+	.custom_slider h1
+	{
+		font-size: 30px;
+        margin-bottom: 50px;
+	}
+	.custom_slider p
+	{
+		font-size: 30px;
+        margin-bottom: 50px;
+	}
+	.custom_slider button
+	{
+       margin-bottom: 50px;
+	}
+	.custom_ind {
+    
+    bottom: 30px;
+   
+}
+.custom_ind li {
+   
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+    background-color:rgba(51, 86, 206, 0.5);
+}
+.custom_ind.active {
+    background-color: #ecb6b6;
+}
